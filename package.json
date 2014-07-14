@@ -21,8 +21,9 @@
     "url": "http://github.com/stevemacn/unflatten-js/issues"
   },
   "devDependencies": {
-    "mocha": "latest"
-  },
+    "mocha": "latest",
+    "should":"latest"
+    },
   "files": [
     "./lib/unflatten.js"
   ],
