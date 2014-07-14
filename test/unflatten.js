@@ -47,9 +47,9 @@ describe('unflatten-js', function () {
         }
 
         walkTree(tree, 0, [
-            "Steve", "Dahlia",
-            "Dahlia", "Boris",
-            "Dahlia", "Natasha",
+            "Steve", "Dahlia",  //steve is parent of dahlia
+            "Dahlia", "Boris",  //dahlia is parent of boris
+            "Dahlia", "Natasha",//dahlia is parent of natasha
             "Natasha", "Leo",
             "Leo","Lena",
             "Leo","Ralph",
