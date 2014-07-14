@@ -1,0 +1,33 @@
+{
+  "name": "unflatten-js",
+  "description": "A javascript library for creating trees from flattened trees",
+  "homepage": "http://github.com/stevemacn/unflatten-js",
+  "version": "0.0.1",
+  "author": {
+    "name": "Stephen MacNeil",
+    "email": "smacneil01@gmail.com"
+  },
+  "keywords": [
+    "tree",
+    "node-link",
+    "unflatten",
+    "representation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stevemacn/unflatten-js.git"
+  },
+  "bugs": {
+    "url": "http://github.com/stevemacn/unflatten-js/issues"
+  },
+  "devDependencies": {
+    "mocha": "latest"
+  },
+  "files": [
+    "./lib/unflatten.js"
+  ],
+  "main": "./lib/unflatten.js",
+  "scripts": {
+    "test": "mocha -t 30000 -R spec"
+  }
+}
