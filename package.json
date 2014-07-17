@@ -1,8 +1,8 @@
 {
-  "name": "unflatten-js",
-  "description": "A javascript library for creating trees from flattened trees",
-  "homepage": "http://github.com/stevemacn/unflatten-js",
-  "version": "0.0.1",
+  "name": "treemill",
+  "description": "A javascript library for converting between node-link and hierachical tree representations",
+  "homepage": "http://github.com/stevemacn/treemill",
+  "version": "0.0.2",
   "author": {
     "name": "Stephen MacNeil",
     "email": "smacneil01@gmail.com"
@@ -10,24 +10,27 @@
   "keywords": [
     "tree",
     "node-link",
-    "unflatten",
+    "treemill",
+    "source",
+    "target",
+    "hierachical",
     "representation"
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/stevemacn/unflatten-js.git"
+    "url": "http://github.com/stevemacn/treemill.git"
   },
   "bugs": {
-    "url": "http://github.com/stevemacn/unflatten-js/issues"
+    "url": "http://github.com/stevemacn/treemill/issues"
   },
   "devDependencies": {
     "mocha": "latest",
     "should":"latest"
     },
   "files": [
-    "./lib/unflatten.js"
+    "./lib/treemill.js"
   ],
-  "main": "./lib/unflatten.js",
+  "main": "./lib/treemill.js",
   "scripts": {
     "test": "mocha -t 30000 -R spec"
   }
