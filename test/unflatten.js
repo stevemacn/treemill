@@ -1,6 +1,6 @@
 var should = require('should')
     , mocha = require('mocha')
-    , unflatten = require('../lib/unflatten.js')
+    , unflatten = require('../lib/treemill.js')
 
 describe('unflatten-js', function () {
 
