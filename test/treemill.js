@@ -1,6 +1,6 @@
 var should = require('should')
     , mocha = require('mocha')
-    , unflatten = require('../lib/treemill.js')
+    , treemill = require('../lib/treemill.js')
 
 describe('unflatten-js', function () {
 
@@ -28,14 +28,14 @@ describe('unflatten-js', function () {
             ]
         }
 
-        unflatten(nodeLink) 
+        tm = treemill()
+        tm.unflatten(nodeLink) 
 
 
         walkTree = function (root, counter, testArr) {
             
             for (i=0; i<root.children.length; i++) {
                 console.log(root.name + "\'s child: " + root.children[i].name)
-                
                 //correct parent
                 root.name.should.eql(testArr[counter++])
 
