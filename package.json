@@ -2,7 +2,7 @@
   "name": "treemill",
   "description": "A javascript library for converting between node-link and hierachical tree representations",
   "homepage": "http://github.com/stevemacn/treemill",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "author": {
     "name": "Stephen MacNeil",
     "email": "smacneil01@gmail.com"
@@ -27,9 +27,6 @@
     "mocha": "latest",
     "should":"latest"
     },
-  "files": [
-    "./lib/treemill.js"
-  ],
   "main": "./lib/treemill.js",
   "scripts": {
     "test": "mocha -t 30000 -R spec"
