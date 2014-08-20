@@ -29,7 +29,7 @@ describe('unflatten-js', function () {
         }
 
         tm = treemill()
-        tm.unflatten(nodeLink) 
+        tree = tm.unflatten(nodeLink) 
 
 
         walkTree = function (root, counter, testArr) {
